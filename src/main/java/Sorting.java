@@ -51,6 +51,13 @@ public class Sorting {
 		return (i + 1);
 	}//end of partition method 
 	
+	/**
+     * Sorts an array using MergeSort.
+     * @param arr the array to be sorted
+     * @param left the starting index
+     * @param right the ending index
+     */
+	
 	public static void mergeSort(int arr[], int left, int right) {
 		
 		if (left < right) {
