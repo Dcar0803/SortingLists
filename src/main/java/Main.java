@@ -18,6 +18,12 @@ public class Main {
         System.out.println("\nSorted Array with MergeSort:");
         printArray(arr);
 
+        
+     // Test BubbleSort
+        int[] array2 = {20, 15, 10, 5};
+        Sorting.bubbleSort(array2);
+        System.out.println("\nSorted Array with BubbleSort:");
+        printArray(array2);
 
 	}//end of main method 
 	
