@@ -3,7 +3,7 @@ public class Sorting {
 	
 	/**
      * Sorts an array using QuickSort.
-     * @param arr the array to be sorted
+     * @param array the array to be sorted
      * @param low the starting index
      * @param high the ending index
      */
@@ -115,7 +115,7 @@ public class Sorting {
 	
 	/**
      * Sorts an array using BubbleSort.
-     * @param arr the array to be sorted
+     * @param array the array to be sorted
      */
 	
 	public static void bubbleSort(int array[]) {
