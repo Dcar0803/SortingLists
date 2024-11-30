@@ -11,6 +11,12 @@ public class Main {
         Sorting.quickSort(array, 0, array.length - 1);
         System.out.println("\nSorted Array with QuickSort:");
         printArray(array);
+        
+     // Test MergeSort
+        int[] arr = {10, 7, 8, 9, 1, 5};
+        Sorting.mergeSort(arr, 0, arr.length - 1);
+        System.out.println("\nSorted Array with MergeSort:");
+        printArray(arr);
 
 
 	}//end of main method 
