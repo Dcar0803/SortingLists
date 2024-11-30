@@ -113,6 +113,11 @@ public class Sorting {
 		
 	}//end of merge method 
 	
+	/**
+     * Sorts an array using BubbleSort.
+     * @param arr the array to be sorted
+     */
+	
 	public static void bubbleSort(int array[]) {
 		
 		int size = array.length;
