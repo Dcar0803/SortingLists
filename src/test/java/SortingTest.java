@@ -20,5 +20,13 @@ class SortingTest {
 		assertArrayEquals(expected, array);
 	}//end of testQuickSort
 	
+	@Test
+	void testBubbleeSort() {
+		int[] array = {4,5,3,1,2};
+		int[] expected = {1,2,3,4,5};
+		Sorting.bubbleSort(array);
+		assertArrayEquals(expected, array);
+	}//end of testBubbleSort
+	
 
 }//end of SortingTest class 
