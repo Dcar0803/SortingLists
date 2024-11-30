@@ -6,6 +6,12 @@ public class Main {
 		
 		System.out.println("Original unsorted array: ");
 		printArray(array);
+		
+		 // Test QuickSort
+        Sorting.quickSort(array, 0, array.length - 1);
+        System.out.println("\nSorted Array with QuickSort:");
+        printArray(array);
+
 
 	}//end of main method 
 	
