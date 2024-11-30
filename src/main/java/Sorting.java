@@ -1,6 +1,13 @@
 
 public class Sorting {
 	
+	/**
+     * Sorts an array using QuickSort.
+     * @param arr the array to be sorted
+     * @param low the starting index
+     * @param high the ending index
+     */
+	
 	public static void quickSort(int array[], int low, int high) {
 		
 		if (low < high){
